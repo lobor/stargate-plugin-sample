@@ -1,4 +1,4 @@
-import SampleViews from 'views/sample/Sample.jsx';
+import SampleViews from './../views/sample/Sample.jsx';
 
 module.exports = [
 	{

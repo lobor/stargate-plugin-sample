@@ -1,16 +1,15 @@
-var basePath = process.cwd();
 import { Plugin } from './../../core/';
+
 
 class PluginSample extends Plugin {
   get props() {
     return {
-      dependencies: []
+      dependencies: [],
+      conf: require('./config/config')
     };
   }
 
-  
   onConfig(){
-
   }
 
   onDependencies(){

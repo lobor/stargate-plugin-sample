@@ -8,4 +8,4 @@ class Sample extends React.Component{
 	}
 }
 
-export default Config;
+export default Sample;
