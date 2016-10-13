@@ -9,9 +9,6 @@ class PluginSample extends Plugin {
     };
   }
 
-  onConfig(){
-  }
-
   onDependencies(){
 
   }
