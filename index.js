@@ -13,11 +13,7 @@ class PluginSample extends Plugin {
 
   }
 
-  onBack(){
-
-  }
-
-  onFront(){
+  onLoad(){
 
   }
 }
