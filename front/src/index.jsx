@@ -1,7 +1,7 @@
 var conf = require('./../../config/config');
 
 // Load toolbox for import function
-import { setNavigation, setRoutes, deleteNavigation, deleteRoutes } from './../../../../core/toolboxFront.js';
+import { setNavigation, setRoutes, deleteNavigation, deleteRoutes, setConfig } from './../../../../core/toolboxFront.js';
 
 // import Routes
 import Routes from './routes/routes';
@@ -9,11 +9,17 @@ import Routes from './routes/routes';
 // import Menu navigation for the front
 import Navigation from './routes/navigation';
 
+// import Config
+import Config from './routes/config';
+
 // Add routes on global app
 setRoutes(Routes);
 
 // Add navigation on global app
 setNavigation(Navigation);
+
+// Add config plugin
+setConfig(conf.name, Config);
 
 
 
