@@ -9,12 +9,12 @@ class PluginSample extends Plugin {
     };
   }
 
-  onDependencies(){
-
+  onLoad(){
+    console.log('onload');
   }
 
-  onLoad(){
-
+  install(){
+    console.log(5);
   }
 }
 
