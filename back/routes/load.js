@@ -1,10 +1,4 @@
 module.exports = {
-	api: [
-		// API
-		require('./api/sampleApi'),
-	],
-	front: [
-		// Page
-		require('./front/sampleFront'),
-	]
+	api: require('./api/sampleApi'),
+	front: require('./front/sampleFront'),
 };

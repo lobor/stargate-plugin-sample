@@ -1,6 +1,7 @@
 import { Plugin } from './../../core/';
 
 
+
 class PluginSample extends Plugin {
   get props() {
     return {
@@ -10,11 +11,11 @@ class PluginSample extends Plugin {
   }
 
   onLoad(){
-    console.log('onload');
+
   }
 
   install(){
-    console.log(5);
+
   }
 }
 
